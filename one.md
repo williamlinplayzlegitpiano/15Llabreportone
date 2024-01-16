@@ -52,6 +52,8 @@ Explanation: Error. `cd` command is used for changing directory. A file is not a
 ---
 ## `ls` Command
 
+**Purpose: to list files inside of a directory**
+
 >Example 1: Using the command with no arguments
 
 Command: `ls`
@@ -82,11 +84,37 @@ Working Directory: none
 
 Explanation: Error. `ls (file name)` attempts to show the names of files and folders inside the specified directory. However, files and folders don't exist inside of files. 
 
+## `cat` Command
 
+**Purpose: to concatenate and display contents in one or more files**
 
+>Example 1: Using the command with no arguments
 
+Command: `cat`
 
+![image](https://github.com/williamlinplayzlegitpiano/15Llabreportone/assets/55766910/ba039c30-0837-450e-acae-56d4ea10def0)
 
-  
+Working Directory: `/home`
 
+Explanation: When the `cat` command is used in the `/home` directory, there is no file for it to concatenate. Instead, it repeats anything we type into the terminal until the user stops it using CTRL-D. 
+
+>Example 2: Using the command with a path to a *directory* as an argument
+
+Command: `cat (directory name)`
+
+![image](https://github.com/williamlinplayzlegitpiano/15Llabreportone/assets/55766910/eb66921b-32ef-4bfb-9922-b56aaaf38ad0)
+
+Working Directory: none
+
+Explanation: Error. This is because `cat` concatenates files. `/home/salutations` is a directory and therefore cannot be concatenated.
+
+>Example 3: Using the command with a path to a *file* as an argument
+
+Command: `cat (directory name/file name)`
+
+![image](https://github.com/williamlinplayzlegitpiano/15Llabreportone/assets/55766910/d6224a78-0994-4c1e-a6c2-301f475bf10e)
+
+Working Directory: `/home/salutations/'bonjour!.txt'`
+
+Explanation: When the `cat salutations/'bonjour!.txt'` command is used, the terminal accesses th `/home/salutations` directory and concatenates the `'bonjour!.txt'` file and displays it.
 
