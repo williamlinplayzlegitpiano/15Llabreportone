@@ -7,6 +7,8 @@ Welcome! In this blog post, we will be discussing the basic filesystem commands 
 ---
 ## `cd` Command
 
+**Purpose: to change directory**
+
 >Example 1: Using the command with no arguments
 
 Command: `cd`
@@ -36,6 +38,17 @@ Command: `cd (directory name)`
 Working Directory: `/home/salutations`
 
 Explanation: `cd salutations` changes the working directory from `/home` to a new location, `/home/salutations`. This change is shown in the prompt, where it says `[user@sahara ~/salutations]$` instead of `[user@sahara ~]$`.
+
+>Example 3: Using the command with a path to a *file* as an argument
+
+Command: `cd (file name)`
+
+![image](https://github.com/williamlinplayzlegitpiano/15Llabreportone/assets/55766910/015304d4-8462-43cf-8ada-08261e9e6ae0)
+
+Working Directory: none
+
+Explanation: Error. `cd` command is used for changing directory. A file is not a directory, hence showing the the output `bash: cd: hello!.txt: Not a directory`.
+
 
 
 
