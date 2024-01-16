@@ -35,7 +35,7 @@ Command: `cd (directory name)`
 
 Working Directory: `/home/salutations`
 
-Explanation: If the 
+Explanation: `cd salutations` changes the working directory from `/home` to a new location, `/home/salutations`. This change is shown in the prompt, where it says `[user@sahara ~/salutations]$` instead of `[user@sahara ~]$`.
 
 
 
