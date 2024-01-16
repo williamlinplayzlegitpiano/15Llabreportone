@@ -7,6 +7,15 @@ Welcome! In this blog post, we will be discussing the basic filesystem commands 
 ---
 ##Basic filesystem commands @ *No* arguments
 
->`cd`
+The working directory for examples with no arguments is `home`. This directory does not show in the command prompt. 
+
+The current working directory can be found using the `pwd` command.
+
+![image](https://github.com/williamlinplayzlegitpiano/15Llabreportone/assets/55766910/9019e21b-8f86-4620-b524-a8e37f85ce5a)
+
+
+>`cd`:
+
+  
 
 
