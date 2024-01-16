@@ -25,11 +25,18 @@ Scenario 2:
 
 Working Directory: `/salutations`
 
-If the current working directory is a repository or file, `cd` will change the current working directory to `/home` in the command prompt. `cd` does not have output.
+Explanation: If the current working directory is a repository or file, `cd` will change the current working directory to `/home` in the command prompt. `cd` does not have output.
 
 Example 2: Using the command with a path to a *directory* as an argument
 
 Command: `cd (directory name)`
+
+![image](https://github.com/williamlinplayzlegitpiano/15Llabreportone/assets/55766910/46f739f7-c93d-4a25-9170-6d467306129e)
+
+Working Directory: `/home/salutations`
+
+Explanation
+
 
 
 
