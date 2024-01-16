@@ -9,7 +9,7 @@ Welcome! In this blog post, we will be discussing the basic filesystem commands 
 
 >`cd`:
 
-`cd` with no arguments can have different results given its current working directory. For example, if the current working directory is /home, `cd` will give no output.
+`cd` with no arguments can have different results given its current working directory. For example, if the current working directory is /home, it will change from /home to /home, thus `cd` will give no output.
 
 ![image](https://github.com/williamlinplayzlegitpiano/15Llabreportone/assets/55766910/9bb6dd87-4dfd-48a2-bdca-39b20bd065bf)
 
