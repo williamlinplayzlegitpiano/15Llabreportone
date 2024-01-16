@@ -76,7 +76,7 @@ Explanation: `ls (directory name)` shows the names of files and folders inside t
 
 >Example 3: Using the command with a path to a *file* as an argument
 
-Command `ls (file name)`
+Command: `ls (file name)`
 
 ![image](https://github.com/williamlinplayzlegitpiano/15Llabreportone/assets/55766910/fa7a79d4-e22d-45bf-a871-cc60889d27a6)
 
@@ -84,6 +84,7 @@ Working Directory: none
 
 Explanation: Error. `ls (file name)` attempts to show the names of files and folders inside the specified directory. However, files and folders don't exist inside of files. 
 
+---
 ## `cat` Command
 
 **Purpose: to concatenate and display contents in one or more files**
