@@ -49,7 +49,8 @@ Working Directory: none
 
 Explanation: Error. `cd` command is used for changing directory. A file is not a directory, hence showing the the output `bash: cd: hello!.txt: Not a directory`.
 
-
+---
+## `ls` Command
 
 
 
