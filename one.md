@@ -52,6 +52,26 @@ Explanation: Error. `cd` command is used for changing directory. A file is not a
 ---
 ## `ls` Command
 
+>Example 1: Using the command with no arguments
+
+Command: `ls`
+
+![image](https://github.com/williamlinplayzlegitpiano/15Llabreportone/assets/55766910/8ada7fe7-9957-4cd7-afbe-e49ea8b6a3e8)
+
+Working Directory: `/home`
+
+Explanation: `ls` shows the names of files and folders inside the current directory. In the current working directory, we have one folder: salutations. 
+
+>Example 2: Using the command with a path to a *directory* as an argument
+
+Command: `ls (directory name)` 
+
+![image](https://github.com/williamlinplayzlegitpiano/15Llabreportone/assets/55766910/20ebc3e2-1c90-45e2-b159-4603db61c2e1)
+
+Working Directory: `/home/salutations`
+
+Explanation: `ls (directory name)` shows the names of files and folders inside the specified directory. In the the directory `salutations`, we have two files: `bonjour!.txt` and `hello!.txt`
+
 
 
   
