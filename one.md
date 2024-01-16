@@ -23,7 +23,7 @@ Scenario 2:
 
 ![image](https://github.com/williamlinplayzlegitpiano/15Llabreportone/assets/55766910/8b8fabf1-2e38-4e3e-b3b0-391b99e8da78)
 
-Working Directory: Salutations
+Working Directory: /salutations
 
 If the current working directory is a repository or file, `cd` will change the current working directory to /home in the command prompt. `cd` does not have output.
 
