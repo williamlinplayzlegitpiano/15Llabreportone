@@ -7,7 +7,7 @@ Welcome! In this blog post, we will be discussing the basic filesystem commands 
 ---
 ## `cd` Command
 
-Example 1: Using the command with no arguments
+>Example 1: Using the command with no arguments
 
 Command: `cd`
 
