@@ -19,6 +19,8 @@ Scenario 1:
 
 Working Directory: `/home`
 
+**Not An Error**
+
 Explanation: `cd` with no arguments can have different results given its current working directory. If the current working directory is `/home`, it will change from `/home` to `/home` in the command prompt, essentially not changing the command prompt. `cd` does not have output.
 
 Scenario 2:
@@ -26,6 +28,8 @@ Scenario 2:
 ![image](https://github.com/williamlinplayzlegitpiano/15Llabreportone/assets/55766910/8b8fabf1-2e38-4e3e-b3b0-391b99e8da78)
 
 Working Directory: `/salutations`
+
+**Not An Error**
 
 Explanation: If the current working directory is a repository or file, `cd` will change the current working directory to `/home` in the command prompt. `cd` does not have output.
 
@@ -37,6 +41,8 @@ Command: `cd (directory name)`
 
 Working Directory: `/home/salutations`
 
+**Not An Error**
+
 Explanation: `cd salutations` changes the working directory from `/home` to a new location, `/home/salutations`. This change is shown in the prompt, where it says `[user@sahara ~/salutations]$` instead of `[user@sahara ~]$`.
 
 >Example 3: Using the command with a path to a *file* as an argument
@@ -46,6 +52,8 @@ Command: `cd (file name)`
 ![image](https://github.com/williamlinplayzlegitpiano/15Llabreportone/assets/55766910/015304d4-8462-43cf-8ada-08261e9e6ae0)
 
 Working Directory: none
+
+**Error**
 
 Explanation: Error. `cd` command is used for changing directory. A file is not a directory, hence showing the the output `bash: cd: hello!.txt: Not a directory`.
 
@@ -62,6 +70,8 @@ Command: `ls`
 
 Working Directory: `/home`
 
+**Not An Error**
+
 Explanation: `ls` shows the names of files and folders inside the current directory. In the current working directory, we have one folder: salutations. 
 
 >Example 2: Using the command with a path to a *directory* as an argument
@@ -72,6 +82,8 @@ Command: `ls (directory name)`
 
 Working Directory: `/home/salutations`
 
+**Not An Error**
+
 Explanation: `ls (directory name)` shows the names of files and folders inside the specified directory. In the directory `salutations`, we have two files: `bonjour!.txt` and `hello!.txt`
 
 >Example 3: Using the command with a path to a *file* as an argument
@@ -81,6 +93,8 @@ Command: `ls (file name)`
 ![image](https://github.com/williamlinplayzlegitpiano/15Llabreportone/assets/55766910/fa7a79d4-e22d-45bf-a871-cc60889d27a6)
 
 Working Directory: none
+
+**Error**
 
 Explanation: Error. `ls (file name)` attempts to show the names of files and folders inside the specified directory. However, files and folders don't exist inside of files. 
 
@@ -97,6 +111,8 @@ Command: `cat`
 
 Working Directory: `/home`
 
+**Not An Error**
+
 Explanation: When the `cat` command is used in the `/home` directory, there is no file for it to concatenate. Instead, it repeats anything we type into the terminal until the user stops it using CTRL-D. 
 
 >Example 2: Using the command with a path to a *directory* as an argument
@@ -107,6 +123,8 @@ Command: `cat (directory name)`
 
 Working Directory: none
 
+**Error**
+
 Explanation: Error. This is because `cat` concatenates files. `/home/salutations` is a directory and therefore cannot be concatenated.
 
 >Example 3: Using the command with a path to a *file* as an argument
@@ -116,6 +134,8 @@ Command: `cat (directory name/file name)`
 ![image](https://github.com/williamlinplayzlegitpiano/15Llabreportone/assets/55766910/d6224a78-0994-4c1e-a6c2-301f475bf10e)
 
 Working Directory: `/home/salutations/'bonjour!.txt'`
+
+**Not An Error**
 
 Explanation: When the `cat salutations/'bonjour!.txt'` command is used, the terminal accesses th `/home/salutations` directory and concatenates the `'bonjour!.txt'` file and displays it.
 
